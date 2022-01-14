@@ -1,0 +1,30 @@
+li{
+    display: inline;
+    border: 1px blue solid;
+    text-decoration: none;
+    background-color: lightskyblue;
+    font-size: 20px;
+    width: 100px;
+}
+li:hover{
+    background-color: lightslategrey;
+}
+
+@media only screen and (max-width: 900px){
+li{
+   display:block;
+   
+}
+div{
+    position:absolute;
+    left: 170px;
+    top: 10px;
+    
+}
+}
+body{
+    background-color: rgb(182, 255, 231);
+}
+div{
+    background-color: aquamarine;
+}
